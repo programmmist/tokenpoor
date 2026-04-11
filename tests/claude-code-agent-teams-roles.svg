@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Agent Team roles</title>
+  <desc id="desc">A readable team structure showing one lead agent coordinating specialists for planning, implementation, testing, and review.</desc>
+  <rect width="800" height="560" fill="#0b1020"/>
+  <text x="28" y="40" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">A practical Claude Code team shape</text>
+  <text x="28" y="64" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="14">Real users keep coming back to one lead plus a few specialist roles</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="280" y="96" width="240" height="86" rx="16" fill="#16213f" stroke="#8aa4ff" stroke-width="2"/>
+    <text x="400" y="126" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="700">Lead agent</text>
+    <text x="400" y="148" text-anchor="middle" fill="#dbe3f4" font-size="13">Breaks down work</text>
+    <text x="400" y="166" text-anchor="middle" fill="#dbe3f4" font-size="13">Assigns specialists</text>
+
+    <rect x="56" y="274" width="160" height="112" rx="14" fill="#1b2a4d"/>
+    <text x="136" y="304" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Planning</text>
+    <text x="136" y="328" text-anchor="middle" fill="#dbe3f4" font-size="13">Task breakdown</text>
+    <text x="136" y="346" text-anchor="middle" fill="#dbe3f4" font-size="13">Scope and sequence</text>
+    <text x="136" y="364" text-anchor="middle" fill="#dbe3f4" font-size="13">Requirements framing</text>
+
+    <rect x="240" y="274" width="160" height="112" rx="14" fill="#18334a"/>
+    <text x="320" y="304" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Implementation</text>
+    <text x="320" y="328" text-anchor="middle" fill="#dbe3f4" font-size="13">Writes the main code</text>
+    <text x="320" y="346" text-anchor="middle" fill="#dbe3f4" font-size="13">Owns the core change</text>
+    <text x="320" y="364" text-anchor="middle" fill="#dbe3f4" font-size="13">Hands off for review</text>
+
+    <rect x="424" y="274" width="160" height="112" rx="14" fill="#33244b"/>
+    <text x="504" y="304" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Testing</text>
+    <text x="504" y="328" text-anchor="middle" fill="#dbe3f4" font-size="13">Runs checks</text>
+    <text x="504" y="346" text-anchor="middle" fill="#dbe3f4" font-size="13">Looks for failures</text>
+    <text x="504" y="364" text-anchor="middle" fill="#dbe3f4" font-size="13">Produces evidence</text>
+
+    <rect x="608" y="274" width="160" height="112" rx="14" fill="#3a241a"/>
+    <text x="688" y="304" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Review</text>
+    <text x="688" y="328" text-anchor="middle" fill="#dbe3f4" font-size="13">Questions correctness</text>
+    <text x="688" y="346" text-anchor="middle" fill="#dbe3f4" font-size="13">Checks quality</text>
+    <text x="688" y="364" text-anchor="middle" fill="#dbe3f4" font-size="13">Stops weak handoffs</text>
+
+    <line x1="400" y1="182" x2="136" y2="274" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="400" y1="182" x2="320" y2="274" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="400" y1="182" x2="504" y2="274" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="400" y1="182" x2="688" y2="274" stroke="#6f86c7" stroke-width="3"/>
+
+    <rect x="170" y="454" width="460" height="58" rx="12" fill="#18203a"/>
+    <text x="400" y="480" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">Practical lesson</text>
+    <text x="400" y="502" text-anchor="middle" fill="#dbe3f4" font-size="13">Small teams with clear roles usually work better than ambitious agent hierarchies.</text>
+  </g>
+</svg>
