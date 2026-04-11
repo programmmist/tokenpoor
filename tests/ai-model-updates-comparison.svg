@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">AI model update comparison</title>
+  <desc id="desc">A readable comparison chart covering OpenAI GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro and Flash Live, and Grok 4.20.</desc>
+  <rect width="800" height="520" fill="#0b1020"/>
+  <text x="32" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">Spring 2026 AI model updates at a glance</text>
+  <text x="32" y="68" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="14">Readable comparison for builders choosing between major model families</text>
+
+  <g font-family="Arial, sans-serif" font-size="13" fill="#dbe3f4">
+    <rect x="24" y="96" width="752" height="48" rx="10" fill="#121a31"/>
+    <text x="48" y="126" font-weight="700">Provider / Model</text>
+    <text x="214" y="126" font-weight="700">What changed</text>
+    <text x="426" y="126" font-weight="700">Best fit</text>
+    <text x="606" y="126" font-weight="700">Watch-out</text>
+
+    <rect x="24" y="156" width="752" height="76" rx="12" fill="#16213f"/>
+    <text x="48" y="184" fill="#ffffff" font-size="15" font-weight="700">OpenAI GPT-5.4</text>
+    <text x="48" y="206" fill="#9fb3ff">Announced March 5, 2026</text>
+    <text x="214" y="184">Stronger push into professional work,</text>
+    <text x="214" y="204">documents, spreadsheets, coding, and</text>
+    <text x="214" y="224">agentic computer-use workflows</text>
+    <text x="426" y="184">Document-heavy assistants,</text>
+    <text x="426" y="204">operations tools, productivity agents</text>
+    <text x="606" y="184">Premium pricing and ecosystem</text>
+    <text x="606" y="204">lock-in can matter in production</text>
+
+    <rect x="24" y="244" width="752" height="76" rx="12" fill="#13273a"/>
+    <text x="48" y="272" fill="#ffffff" font-size="15" font-weight="700">Anthropic Claude Sonnet 4.6</text>
+    <text x="48" y="294" fill="#86d8c5">Announced February 17, 2026</text>
+    <text x="214" y="272">Improved coding, planning, design,</text>
+    <text x="214" y="292">and long-context knowledge work while</text>
+    <text x="214" y="312">keeping Sonnet pricing stable</text>
+    <text x="426" y="272">Coding help, structured writing,</text>
+    <text x="426" y="292">planning, long-context default use</text>
+    <text x="606" y="272">Less dramatic positioning can make</text>
+    <text x="606" y="292">its strengths easy to underestimate</text>
+
+    <rect x="24" y="332" width="752" height="76" rx="12" fill="#2a1f3d"/>
+    <text x="48" y="360" fill="#ffffff" font-size="15" font-weight="700">Google Gemini 3.1 Pro / Flash Live</text>
+    <text x="48" y="382" fill="#d1a7ff">Pro: Feb 19, 2026  |  Flash Live: Mar 26, 2026</text>
+    <text x="214" y="360">Google split deep reasoning from</text>
+    <text x="214" y="380">real-time multimodal voice interaction</text>
+    <text x="214" y="400">instead of treating them as one lane</text>
+    <text x="426" y="360">Pro for hard synthesis, Flash Live</text>
+    <text x="426" y="380">for voice-first product experiences</text>
+    <text x="606" y="360">Choose carefully, because reasoning</text>
+    <text x="606" y="380">and voice have very different needs</text>
+
+    <rect x="24" y="420" width="752" height="76" rx="12" fill="#3a241a"/>
+    <text x="48" y="448" fill="#ffffff" font-size="15" font-weight="700">xAI Grok 4.20</text>
+    <text x="48" y="470" fill="#ffbf8a">Flagship in xAI API/docs, April 2026</text>
+    <text x="214" y="448">Long context, tool use, and aggressive</text>
+    <text x="214" y="468">price-performance are the main story</text>
+    <text x="426" y="448">Large-input pipelines, retrieval-heavy</text>
+    <text x="426" y="468">work, tool-calling evaluation</text>
+    <text x="606" y="448">Do not confuse long context with</text>
+    <text x="606" y="468">automatic production reliability</text>
+  </g>
+</svg>
