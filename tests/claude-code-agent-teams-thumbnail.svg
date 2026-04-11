@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Agent Teams thumbnail</title>
+  <desc id="desc">A clean thumbnail showing a lead agent coordinating planning, coding, testing, and review agents.</desc>
+  <rect width="800" height="450" fill="#0b1020"/>
+  <defs>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8aa4ff"/>
+      <stop offset="100%" stop-color="#d1a7ff"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="400" cy="150" r="84" fill="#16213f" stroke="url(#glow)" stroke-width="4"/>
+  <text x="400" y="142" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Lead agent</text>
+  <text x="400" y="170" text-anchor="middle" fill="#dbe3f4" font-family="Arial, sans-serif" font-size="15">Coordinates the workflow</text>
+
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="72" y="286" width="144" height="56" rx="14" fill="#1b2a4d"/>
+    <text x="144" y="320" text-anchor="middle" fill="#ffffff">Planning</text>
+
+    <rect x="248" y="286" width="144" height="56" rx="14" fill="#18334a"/>
+    <text x="320" y="320" text-anchor="middle" fill="#ffffff">Coding</text>
+
+    <rect x="424" y="286" width="144" height="56" rx="14" fill="#33244b"/>
+    <text x="496" y="320" text-anchor="middle" fill="#ffffff">Testing</text>
+
+    <rect x="600" y="286" width="144" height="56" rx="14" fill="#3a241a"/>
+    <text x="672" y="320" text-anchor="middle" fill="#ffffff">Review</text>
+  </g>
+
+  <g stroke="#6f86c7" stroke-width="4" stroke-linecap="round">
+    <line x1="340" y1="219" x2="144" y2="286"/>
+    <line x1="380" y1="232" x2="320" y2="286"/>
+    <line x1="420" y1="232" x2="496" y2="286"/>
+    <line x1="460" y1="219" x2="672" y2="286"/>
+  </g>
+
+  <text x="400" y="402" text-anchor="middle" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="15">The most common real-world setup is one lead plus a few specialist roles.</text>
+</svg>
