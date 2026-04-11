@@ -39,8 +39,8 @@
     <text x="615" y="324">Still test with your prompts</text>
 
     <rect x="20" y="374" width="760" height="112" rx="12" fill="#2a1f3d"/>
-    <text x="40" y="400" fill="#ffffff" font-size="15" font-weight="700">Gemini 3.1 Pro / Flash Live</text>
-    <text x="40" y="420" fill="#d1a7ff">Pro: Feb 19  |  Flash Live: Mar 26</text>
+    <text x="40" y="400" fill="#ffffff" font-size="15" font-weight="700">Gemini 3.1 models</text>
+    <text x="40" y="420" fill="#d1a7ff">Pro: Feb 19  |  Live: Mar 26</text>
     <text x="205" y="400">Google split the lineup</text>
     <text x="205" y="418">Pro for deep synthesis</text>
     <text x="205" y="436">Flash Live for real-time voice</text>
