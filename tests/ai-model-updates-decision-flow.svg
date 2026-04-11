@@ -1,67 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="540" viewBox="0 0 800 540" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620" role="img" aria-labelledby="title desc">
   <title id="title">AI model decision flow</title>
   <desc id="desc">A readable flowchart for choosing among GPT-5.4, Claude Sonnet 4.6, Gemini 3.1 Pro, Gemini 3.1 Flash Live, and Grok 4.20 by workflow.</desc>
-  <rect width="800" height="540" fill="#0b1020"/>
+  <rect width="800" height="620" fill="#0b1020"/>
   <text x="32" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="700">How to choose a model by workload</text>
-  <text x="32" y="68" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="14">Use the job to narrow the shortlist before you compare benchmarks</text>
+  <text x="32" y="66" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="14">Use the job to narrow the shortlist before comparing benchmarks</text>
 
   <g font-family="Arial, sans-serif">
-    <rect x="280" y="94" width="240" height="64" rx="14" fill="#16213f" stroke="#8aa4ff" stroke-width="2"/>
-    <text x="400" y="122" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">Start here</text>
-    <text x="400" y="144" text-anchor="middle" fill="#dbe3f4" font-size="13">What kind of work dominates your product?</text>
+    <rect x="270" y="94" width="260" height="64" rx="14" fill="#16213f" stroke="#8aa4ff" stroke-width="2"/>
+    <text x="400" y="121" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="700">Start here</text>
+    <text x="400" y="143" text-anchor="middle" fill="#dbe3f4" font-size="13">Which workload matters most?</text>
 
-    <line x1="400" y1="158" x2="400" y2="190" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="400" y1="158" x2="400" y2="188" stroke="#6f86c7" stroke-width="3"/>
 
-    <rect x="38" y="198" width="170" height="88" rx="14" fill="#1b2a4d"/>
-    <text x="123" y="228" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Document-heavy work</text>
-    <text x="123" y="250" text-anchor="middle" fill="#dbe3f4" font-size="13">Spreadsheets, decks,</text>
-    <text x="123" y="268" text-anchor="middle" fill="#dbe3f4" font-size="13">operations, agent tasks</text>
+    <rect x="36" y="198" width="170" height="96" rx="14" fill="#1b2a4d"/>
+    <text x="121" y="226" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Document-heavy work</text>
+    <text x="121" y="248" text-anchor="middle" fill="#dbe3f4" font-size="13">Spreadsheets</text>
+    <text x="121" y="266" text-anchor="middle" fill="#dbe3f4" font-size="13">Docs and presentations</text>
+    <text x="121" y="284" text-anchor="middle" fill="#dbe3f4" font-size="13">Agent-style operations</text>
 
-    <rect x="223" y="198" width="170" height="88" rx="14" fill="#18334a"/>
-    <text x="308" y="228" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Coding default</text>
-    <text x="308" y="250" text-anchor="middle" fill="#dbe3f4" font-size="13">Structured writing,</text>
-    <text x="308" y="268" text-anchor="middle" fill="#dbe3f4" font-size="13">planning, long context</text>
+    <rect x="220" y="198" width="170" height="96" rx="14" fill="#18334a"/>
+    <text x="305" y="226" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Coding default</text>
+    <text x="305" y="248" text-anchor="middle" fill="#dbe3f4" font-size="13">Code generation</text>
+    <text x="305" y="266" text-anchor="middle" fill="#dbe3f4" font-size="13">Planning and drafting</text>
+    <text x="305" y="284" text-anchor="middle" fill="#dbe3f4" font-size="13">Long-context thinking</text>
 
-    <rect x="408" y="198" width="170" height="88" rx="14" fill="#33244b"/>
-    <text x="493" y="228" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Hard synthesis</text>
-    <text x="493" y="250" text-anchor="middle" fill="#dbe3f4" font-size="13">Complex reasoning across</text>
-    <text x="493" y="268" text-anchor="middle" fill="#dbe3f4" font-size="13">many inputs</text>
+    <rect x="404" y="198" width="170" height="96" rx="14" fill="#33244b"/>
+    <text x="489" y="226" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Hard synthesis</text>
+    <text x="489" y="248" text-anchor="middle" fill="#dbe3f4" font-size="13">Many inputs</text>
+    <text x="489" y="266" text-anchor="middle" fill="#dbe3f4" font-size="13">Difficult reasoning</text>
+    <text x="489" y="284" text-anchor="middle" fill="#dbe3f4" font-size="13">Google-centric stack</text>
 
-    <rect x="593" y="198" width="170" height="88" rx="14" fill="#3a241a"/>
-    <text x="678" y="228" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Voice or giant context</text>
-    <text x="678" y="250" text-anchor="middle" fill="#dbe3f4" font-size="13">Real-time voice, or very</text>
-    <text x="678" y="268" text-anchor="middle" fill="#dbe3f4" font-size="13">large-input workflows</text>
+    <rect x="588" y="198" width="176" height="96" rx="14" fill="#3a241a"/>
+    <text x="676" y="226" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Voice or giant context</text>
+    <text x="676" y="248" text-anchor="middle" fill="#dbe3f4" font-size="13">Real-time voice</text>
+    <text x="676" y="266" text-anchor="middle" fill="#dbe3f4" font-size="13">Very large inputs</text>
+    <text x="676" y="284" text-anchor="middle" fill="#dbe3f4" font-size="13">Tool-heavy pipelines</text>
 
-    <line x1="123" y1="286" x2="123" y2="324" stroke="#6f86c7" stroke-width="3"/>
-    <line x1="308" y1="286" x2="308" y2="324" stroke="#6f86c7" stroke-width="3"/>
-    <line x1="493" y1="286" x2="493" y2="324" stroke="#6f86c7" stroke-width="3"/>
-    <line x1="678" y1="286" x2="678" y2="324" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="121" y1="294" x2="121" y2="332" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="305" y1="294" x2="305" y2="332" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="489" y1="294" x2="489" y2="332" stroke="#6f86c7" stroke-width="3"/>
+    <line x1="676" y1="294" x2="676" y2="332" stroke="#6f86c7" stroke-width="3"/>
 
-    <rect x="38" y="324" width="170" height="110" rx="14" fill="#121a31" stroke="#8aa4ff" stroke-width="2"/>
-    <text x="123" y="352" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try GPT-5.4 first</text>
-    <text x="123" y="376" text-anchor="middle" fill="#dbe3f4" font-size="13">Best when professional</text>
-    <text x="123" y="394" text-anchor="middle" fill="#dbe3f4" font-size="13">productivity work is the</text>
-    <text x="123" y="412" text-anchor="middle" fill="#dbe3f4" font-size="13">center of the workflow</text>
+    <rect x="36" y="332" width="170" height="118" rx="14" fill="#121a31" stroke="#8aa4ff" stroke-width="2"/>
+    <text x="121" y="360" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try GPT-5.4 first</text>
+    <text x="121" y="384" text-anchor="middle" fill="#dbe3f4" font-size="13">Strong fit for</text>
+    <text x="121" y="402" text-anchor="middle" fill="#dbe3f4" font-size="13">professional productivity</text>
+    <text x="121" y="420" text-anchor="middle" fill="#dbe3f4" font-size="13">and document workflows</text>
 
-    <rect x="223" y="324" width="170" height="110" rx="14" fill="#121a31" stroke="#79d0bd" stroke-width="2"/>
-    <text x="308" y="352" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try Claude Sonnet 4.6</text>
-    <text x="308" y="376" text-anchor="middle" fill="#dbe3f4" font-size="13">Strong practical default</text>
-    <text x="308" y="394" text-anchor="middle" fill="#dbe3f4" font-size="13">for code, planning, and</text>
-    <text x="308" y="412" text-anchor="middle" fill="#dbe3f4" font-size="13">knowledge-heavy work</text>
+    <rect x="220" y="332" width="170" height="118" rx="14" fill="#121a31" stroke="#79d0bd" stroke-width="2"/>
+    <text x="305" y="360" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try Claude 4.6</text>
+    <text x="305" y="384" text-anchor="middle" fill="#dbe3f4" font-size="13">Strong default for</text>
+    <text x="305" y="402" text-anchor="middle" fill="#dbe3f4" font-size="13">coding, planning, and</text>
+    <text x="305" y="420" text-anchor="middle" fill="#dbe3f4" font-size="13">knowledge-heavy tasks</text>
 
-    <rect x="408" y="324" width="170" height="110" rx="14" fill="#121a31" stroke="#d1a7ff" stroke-width="2"/>
-    <text x="493" y="352" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try Gemini 3.1 Pro</text>
-    <text x="493" y="376" text-anchor="middle" fill="#dbe3f4" font-size="13">Use when hard synthesis</text>
-    <text x="493" y="394" text-anchor="middle" fill="#dbe3f4" font-size="13">across many sources is</text>
-    <text x="493" y="412" text-anchor="middle" fill="#dbe3f4" font-size="13">the core requirement</text>
+    <rect x="404" y="332" width="170" height="118" rx="14" fill="#121a31" stroke="#d1a7ff" stroke-width="2"/>
+    <text x="489" y="360" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Try Gemini 3.1 Pro</text>
+    <text x="489" y="384" text-anchor="middle" fill="#dbe3f4" font-size="13">Use for difficult</text>
+    <text x="489" y="402" text-anchor="middle" fill="#dbe3f4" font-size="13">synthesis across many</text>
+    <text x="489" y="420" text-anchor="middle" fill="#dbe3f4" font-size="13">sources and inputs</text>
 
-    <rect x="593" y="324" width="170" height="110" rx="14" fill="#121a31" stroke="#ffbf8a" stroke-width="2"/>
-    <text x="678" y="352" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Split the decision</text>
-    <text x="678" y="376" text-anchor="middle" fill="#dbe3f4" font-size="13">Voice-first product?</text>
-    <text x="678" y="394" text-anchor="middle" fill="#dbe3f4" font-size="13">Try Gemini 3.1 Flash Live</text>
-    <text x="678" y="416" text-anchor="middle" fill="#dbe3f4" font-size="13">Huge context? Test Grok 4.20</text>
+    <rect x="588" y="332" width="176" height="118" rx="14" fill="#121a31" stroke="#ffbf8a" stroke-width="2"/>
+    <text x="676" y="360" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Split the decision</text>
+    <text x="676" y="384" text-anchor="middle" fill="#dbe3f4" font-size="13">Voice-first app?</text>
+    <text x="676" y="402" text-anchor="middle" fill="#dbe3f4" font-size="13">Try Flash Live</text>
+    <text x="676" y="420" text-anchor="middle" fill="#dbe3f4" font-size="13">Huge context? Test Grok</text>
 
-    <rect x="180" y="462" width="440" height="48" rx="12" fill="#18203a"/>
-    <text x="400" y="490" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">Final rule: shortlist by workflow, then test latency, tool reliability, and real cost.</text>
+    <rect x="156" y="490" width="488" height="64" rx="12" fill="#18203a"/>
+    <text x="400" y="518" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">Final rule</text>
+    <text x="400" y="540" text-anchor="middle" fill="#dbe3f4" font-size="13">Shortlist by workflow, then test latency, tool reliability, and real cost.</text>
   </g>
 </svg>
