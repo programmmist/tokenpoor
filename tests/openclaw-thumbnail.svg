@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">OpenClaw thumbnail</title>
+  <desc id="desc">A clean thumbnail showing OpenClaw Gateway connected to channels, automation, nodes, and ACP.</desc>
+  <rect width="800" height="450" fill="#0b1020"/>
+  <defs>
+    <linearGradient id="glow" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7aa2ff"/>
+      <stop offset="100%" stop-color="#8ef0c8"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="400" cy="225" r="92" fill="#16213f" stroke="url(#glow)" stroke-width="4"/>
+  <text x="400" y="215" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">OpenClaw</text>
+  <text x="400" y="245" text-anchor="middle" fill="#dbe3f4" font-family="Arial, sans-serif" font-size="16">Gateway-centered AI assistant</text>
+
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="70" y="86" width="140" height="50" rx="14" fill="#1b2a4d"/>
+    <text x="140" y="117" text-anchor="middle" fill="#ffffff">Channels</text>
+
+    <rect x="70" y="314" width="140" height="50" rx="14" fill="#1b2a4d"/>
+    <text x="140" y="345" text-anchor="middle" fill="#ffffff">Presence</text>
+
+    <rect x="590" y="86" width="140" height="50" rx="14" fill="#18334a"/>
+    <text x="660" y="117" text-anchor="middle" fill="#ffffff">Automation</text>
+
+    <rect x="590" y="314" width="140" height="50" rx="14" fill="#18334a"/>
+    <text x="660" y="345" text-anchor="middle" fill="#ffffff">ACP + Nodes</text>
+  </g>
+
+  <g stroke="#6f86c7" stroke-width="4" stroke-linecap="round">
+    <line x1="210" y1="111" x2="323" y2="177"/>
+    <line x1="210" y1="339" x2="323" y2="273"/>
+    <line x1="590" y1="111" x2="477" y2="177"/>
+    <line x1="590" y1="339" x2="477" y2="273"/>
+  </g>
+
+  <text x="42" y="420" fill="#b8c1d9" font-family="Arial, sans-serif" font-size="15">Messaging, automation, sessions, and integration all meet at the Gateway.</text>
+</svg>
