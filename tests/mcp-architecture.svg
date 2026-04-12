@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrowR" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowL" markerWidth="8" markerHeight="6" refX="1" refY="3" orient="auto">
+      <polygon points="8 0, 0 3, 8 6" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="500" letter-spacing="1">HOW MCP CONNECTS AI TO YOUR TOOLS</text>
+
+  <!-- AI Client box -->
+  <rect x="40" y="80" width="160" height="240" rx="10" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="120" y="108" text-anchor="middle" fill="#38bdf8" font-size="13" font-weight="700">AI Client</text>
+  <text x="120" y="124" text-anchor="middle" fill="#94a3b8" font-size="10">(Claude Code, Cursor…)</text>
+
+  <!-- Primitives inside AI Client -->
+  <rect x="58" y="140" width="124" height="38" rx="6" fill="#0f2744" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="157" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Tools</text>
+  <text x="120" y="171" text-anchor="middle" fill="#94a3b8" font-size="9">Executable functions</text>
+
+  <rect x="58" y="188" width="124" height="38" rx="6" fill="#0f2744" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="205" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Resources</text>
+  <text x="120" y="219" text-anchor="middle" fill="#94a3b8" font-size="9">Data as context</text>
+
+  <rect x="58" y="236" width="124" height="38" rx="6" fill="#0f2744" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="120" y="253" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Prompts</text>
+  <text x="120" y="267" text-anchor="middle" fill="#94a3b8" font-size="9">Reusable templates</text>
+
+  <!-- MCP Server box (center) -->
+  <rect x="290" y="120" width="220" height="160" rx="10" fill="#1a2744" stroke="#7c3aed" stroke-width="2"/>
+  <text x="400" y="152" text-anchor="middle" fill="#a78bfa" font-size="14" font-weight="700">MCP Server</text>
+  <text x="400" y="170" text-anchor="middle" fill="#94a3b8" font-size="10">stdio  ·  HTTP</text>
+
+  <!-- MCP icon in center -->
+  <circle cx="400" cy="218" r="28" fill="#2d1b69" stroke="#7c3aed" stroke-width="1.5"/>
+  <text x="400" y="215" text-anchor="middle" fill="#a78bfa" font-size="11" font-weight="700">MCP</text>
+  <text x="400" y="228" text-anchor="middle" fill="#7c3aed" font-size="9">v2025.11</text>
+
+  <!-- Arrow AI Client → MCP -->
+  <line x1="202" y1="200" x2="288" y2="200" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowR)" filter="url(#glow)"/>
+  <text x="245" y="190" text-anchor="middle" fill="#38bdf8" font-size="9">requests</text>
+
+  <!-- Arrow MCP → AI Client -->
+  <line x1="288" y1="210" x2="202" y2="210" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowL)" filter="url(#glow)"/>
+  <text x="245" y="225" text-anchor="middle" fill="#38bdf8" font-size="9">results</text>
+
+  <!-- External services column -->
+  <!-- GitHub -->
+  <rect x="566" y="80" width="192" height="52" rx="8" fill="#1a2e1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="662" y="103" text-anchor="middle" fill="#4ade80" font-size="12" font-weight="600">GitHub</text>
+  <text x="662" y="120" text-anchor="middle" fill="#94a3b8" font-size="9">Issues · PRs · Repos</text>
+
+  <!-- Database -->
+  <rect x="566" y="148" width="192" height="52" rx="8" fill="#1a2a38" stroke="#38bdf8" stroke-width="1"/>
+  <text x="662" y="171" text-anchor="middle" fill="#38bdf8" font-size="12" font-weight="600">Database</text>
+  <text x="662" y="188" text-anchor="middle" fill="#94a3b8" font-size="9">PostgreSQL · SQLite · Supabase</text>
+
+  <!-- Web Search -->
+  <rect x="566" y="216" width="192" height="52" rx="8" fill="#2a1a10" stroke="#fb923c" stroke-width="1"/>
+  <text x="662" y="239" text-anchor="middle" fill="#fb923c" font-size="12" font-weight="600">Web &amp; Search</text>
+  <text x="662" y="256" text-anchor="middle" fill="#94a3b8" font-size="9">Brave Search · Playwright</text>
+
+  <!-- Productivity -->
+  <rect x="566" y="284" width="192" height="52" rx="8" fill="#2a1a2e" stroke="#c084fc" stroke-width="1"/>
+  <text x="662" y="307" text-anchor="middle" fill="#c084fc" font-size="12" font-weight="600">Productivity</text>
+  <text x="662" y="324" text-anchor="middle" fill="#94a3b8" font-size="9">Linear · Slack · Notion</text>
+
+  <!-- Arrows MCP → Services -->
+  <line x1="512" y1="180" x2="564" y2="106" stroke="#4ade80" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="512" y1="190" x2="564" y2="174" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="512" y1="200" x2="564" y2="242" stroke="#fb923c" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+  <line x1="512" y1="210" x2="564" y2="310" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.7"/>
+
+  <!-- Footer -->
+  <text x="400" y="380" text-anchor="middle" fill="#475569" font-size="10">Each MCP server runs as a separate subprocess · stdio (local) or HTTP (remote)</text>
+</svg>
