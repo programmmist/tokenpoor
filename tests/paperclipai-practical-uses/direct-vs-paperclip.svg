@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">When a direct assistant is enough versus when Paperclip AI fits</title>
+  <desc id="desc">A two-column comparison showing simple single-agent work on one side and multi-agent governed workflows on the other.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .h{font-family:system-ui,-apple-system,sans-serif;fill:#f8fafc;font-size:24px;font-weight:800}
+      .sh{font-family:system-ui,-apple-system,sans-serif;fill:#f8fafc;font-size:20px;font-weight:800}
+      .k{font-family:system-ui,-apple-system,sans-serif;fill:#0f172a;font-size:15px;font-weight:800}
+      .foot{font-family:system-ui,-apple-system,sans-serif;fill:#dbeafe;font-size:16px}
+    </style>
+  </defs>
+  <rect width="800" height="460" rx="24" fill="url(#bg)"/>
+  <text x="400" y="42" text-anchor="middle" class="h">When Paperclip helps, and when it does not</text>
+
+  <rect x="34" y="84" width="348" height="324" rx="22" fill="#bfdbfe"/>
+  <text x="208" y="120" text-anchor="middle" class="sh" fill="#0f172a">A direct assistant is enough</text>
+  <rect x="84" y="146" width="248" height="44" rx="12" fill="#ffffff"/>
+  <text x="208" y="173" text-anchor="middle" class="k">one main agent or chat</text>
+  <rect x="84" y="202" width="248" height="44" rx="12" fill="#ffffff"/>
+  <text x="208" y="229" text-anchor="middle" class="k">ad hoc questions or tasks</text>
+  <rect x="84" y="258" width="248" height="44" rx="12" fill="#ffffff"/>
+  <text x="208" y="285" text-anchor="middle" class="k">little need for handoffs</text>
+  <rect x="84" y="314" width="248" height="44" rx="12" fill="#ffffff"/>
+  <text x="208" y="341" text-anchor="middle" class="k">minimal approval rules</text>
+
+  <rect x="418" y="84" width="348" height="324" rx="22" fill="#86efac"/>
+  <text x="592" y="120" text-anchor="middle" class="sh" fill="#052e16">Paperclip is a strong fit</text>
+  <rect x="468" y="146" width="248" height="52" rx="12" fill="#ffffff"/>
+  <text x="592" y="169" text-anchor="middle" class="k">multiple agent roles</text>
+  <text x="592" y="186" text-anchor="middle" class="k">with clear handoffs</text>
+  <rect x="468" y="210" width="248" height="52" rx="12" fill="#ffffff"/>
+  <text x="592" y="233" text-anchor="middle" class="k">scheduled workflows</text>
+  <text x="592" y="250" text-anchor="middle" class="k">and recurring tasks</text>
+  <rect x="468" y="274" width="248" height="52" rx="12" fill="#ffffff"/>
+  <text x="592" y="297" text-anchor="middle" class="k">shared memory</text>
+  <text x="592" y="314" text-anchor="middle" class="k">and task routing</text>
+  <rect x="468" y="338" width="248" height="52" rx="12" fill="#ffffff"/>
+  <text x="592" y="361" text-anchor="middle" class="k">budgets, approvals,</text>
+  <text x="592" y="378" text-anchor="middle" class="k">and traceability</text>
+
+  <text x="400" y="438" text-anchor="middle" class="foot">The key signal is needing management, not just a smarter single agent.</text>
+</svg>
