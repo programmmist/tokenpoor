@@ -1,0 +1,50 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#93c5fd"/>
+    </marker>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#bg2)"/>
+  <text x="400" y="42" text-anchor="middle" fill="#f9fafb" font-size="28" font-family="system-ui, -apple-system, sans-serif" font-weight="700">Operator checklist flow</text>
+  <text x="400" y="70" text-anchor="middle" fill="#d1d5db" font-size="16" font-family="system-ui, -apple-system, sans-serif">A practical sequence for handling agent traffic</text>
+
+  <g>
+    <rect x="60" y="115" width="150" height="74" rx="16" fill="#0f3d5e" stroke="#67e8f9" stroke-width="3"/>
+    <text x="135" y="150" text-anchor="middle" fill="#f8fafc" font-size="20" font-family="system-ui, -apple-system, sans-serif" font-weight="700">1. Classify</text>
+    <text x="135" y="174" text-anchor="middle" fill="#dbeafe" font-size="15" font-family="system-ui, -apple-system, sans-serif">Traffic bucket</text>
+  </g>
+  <g>
+    <rect x="325" y="115" width="150" height="74" rx="16" fill="#1e3a8a" stroke="#93c5fd" stroke-width="3"/>
+    <text x="400" y="150" text-anchor="middle" fill="#f8fafc" font-size="20" font-family="system-ui, -apple-system, sans-serif" font-weight="700">2. Verify</text>
+    <text x="400" y="174" text-anchor="middle" fill="#dbeafe" font-size="15" font-family="system-ui, -apple-system, sans-serif">Identity signal</text>
+  </g>
+  <g>
+    <rect x="590" y="115" width="150" height="74" rx="16" fill="#4c1d95" stroke="#c4b5fd" stroke-width="3"/>
+    <text x="665" y="150" text-anchor="middle" fill="#f8fafc" font-size="20" font-family="system-ui, -apple-system, sans-serif" font-weight="700">3. Enforce</text>
+    <text x="665" y="174" text-anchor="middle" fill="#ede9fe" font-size="15" font-family="system-ui, -apple-system, sans-serif">Allow or limit</text>
+  </g>
+
+  <line x1="210" y1="152" x2="325" y2="152" stroke="#93c5fd" stroke-width="4" marker-end="url(#arrow2)"/>
+  <line x1="475" y1="152" x2="590" y2="152" stroke="#c4b5fd" stroke-width="4" marker-end="url(#arrow2)"/>
+
+  <g>
+    <rect x="170" y="285" width="180" height="84" rx="18" fill="#0f766e" stroke="#5eead4" stroke-width="3"/>
+    <text x="260" y="322" text-anchor="middle" fill="#f0fdfa" font-size="20" font-family="system-ui, -apple-system, sans-serif" font-weight="700">4. Respond clearly</text>
+    <text x="260" y="347" text-anchor="middle" fill="#ccfbf1" font-size="15" font-family="system-ui, -apple-system, sans-serif">Structured problem details</text>
+  </g>
+  <g>
+    <rect x="450" y="285" width="180" height="84" rx="18" fill="#7c2d12" stroke="#fdba74" stroke-width="3"/>
+    <text x="540" y="322" text-anchor="middle" fill="#fff7ed" font-size="20" font-family="system-ui, -apple-system, sans-serif" font-weight="700">5. Log decision</text>
+    <text x="540" y="347" text-anchor="middle" fill="#ffedd5" font-size="15" font-family="system-ui, -apple-system, sans-serif">Rule, route, and outcome</text>
+  </g>
+
+  <line x1="665" y1="189" x2="665" y2="245" stroke="#fde68a" stroke-width="4"/>
+  <line x1="665" y1="245" x2="260" y2="245" stroke="#fde68a" stroke-width="4" marker-end="url(#arrow2)"/>
+  <line x1="350" y1="327" x2="450" y2="327" stroke="#fdba74" stroke-width="4" marker-end="url(#arrow2)"/>
+
+  <text x="400" y="445" text-anchor="middle" fill="#d1d5db" font-size="16" font-family="system-ui, -apple-system, sans-serif">Good agent handling is explicit at every step: who, what policy, what next, and how it was recorded.</text>
+</svg>
