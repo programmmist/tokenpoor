@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7dd3fc"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" rx="24" fill="url(#bg)"/>
+  <text x="400" y="42" text-anchor="middle" fill="#e2e8f0" font-size="28" font-family="system-ui, -apple-system, sans-serif" font-weight="700">Identity, policy, response</text>
+  <text x="400" y="72" text-anchor="middle" fill="#cbd5e1" font-size="16" font-family="system-ui, -apple-system, sans-serif">The three layers an agent-friendly website should make explicit</text>
+
+  <rect x="40" y="115" width="220" height="225" rx="20" fill="#10284f" stroke="#67e8f9" stroke-width="3"/>
+  <circle cx="150" cy="165" r="34" fill="#0b1228" stroke="#67e8f9" stroke-width="3"/>
+  <path d="M135 166 l10 11 20 -24" fill="none" stroke="#7dd3fc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="225" text-anchor="middle" fill="#f8fafc" font-size="22" font-family="system-ui, -apple-system, sans-serif" font-weight="700">1. Verify identity</text>
+  <text x="150" y="258" text-anchor="middle" fill="#dbeafe" font-size="16" font-family="system-ui, -apple-system, sans-serif">Signed agent or other</text>
+  <text x="150" y="282" text-anchor="middle" fill="#dbeafe" font-size="16" font-family="system-ui, -apple-system, sans-serif">strong provenance signal</text>
+
+  <rect x="290" y="115" width="220" height="225" rx="20" fill="#1d265f" stroke="#a78bfa" stroke-width="3"/>
+  <rect x="348" y="142" width="104" height="42" rx="12" fill="#312e81" stroke="#c4b5fd" stroke-width="2"/>
+  <rect x="330" y="205" width="62" height="88" rx="12" fill="#0b1228" stroke="#c4b5fd" stroke-width="2"/>
+  <rect x="408" y="205" width="62" height="88" rx="12" fill="#0b1228" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="400" y="225" text-anchor="middle" fill="#f8fafc" font-size="22" font-family="system-ui, -apple-system, sans-serif" font-weight="700">2. Apply policy</text>
+  <text x="400" y="258" text-anchor="middle" fill="#e9d5ff" font-size="16" font-family="system-ui, -apple-system, sans-serif">Classify search, grounding,</text>
+  <text x="400" y="282" text-anchor="middle" fill="#e9d5ff" font-size="16" font-family="system-ui, -apple-system, sans-serif">training, or user-directed traffic</text>
+
+  <rect x="540" y="115" width="220" height="225" rx="20" fill="#3a2358" stroke="#f9a8d4" stroke-width="3"/>
+  <rect x="584" y="145" width="132" height="152" rx="18" fill="#111827" stroke="#f9a8d4" stroke-width="3"/>
+  <circle cx="614" cy="179" r="14" fill="#f59e0b"/>
+  <rect x="637" y="170" width="54" height="10" rx="5" fill="#fce7f3"/>
+  <rect x="604" y="210" width="92" height="10" rx="5" fill="#f9a8d4" opacity="0.9"/>
+  <rect x="604" y="234" width="82" height="10" rx="5" fill="#f9a8d4" opacity="0.7"/>
+  <rect x="604" y="258" width="64" height="10" rx="5" fill="#f9a8d4" opacity="0.5"/>
+  <text x="650" y="322" text-anchor="middle" fill="#f8fafc" font-size="22" font-family="system-ui, -apple-system, sans-serif" font-weight="700">3. Return structure</text>
+  <text x="650" y="355" text-anchor="middle" fill="#fce7f3" font-size="16" font-family="system-ui, -apple-system, sans-serif">Problem details and retry semantics</text>
+
+  <line x1="260" y1="227" x2="290" y2="227" stroke="#7dd3fc" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="510" y1="227" x2="540" y2="227" stroke="#c4b5fd" stroke-width="4" marker-end="url(#arrow)"/>
+</svg>
