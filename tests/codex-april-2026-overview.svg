@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#0f172a"/>
+  <rect x="70" y="70" width="1460" height="760" rx="28" fill="#111827" stroke="#334155" stroke-width="2"/>
+  <text x="100" y="155" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Codex in April 2026</text>
+  <text x="100" y="205" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="28">From coding assistant to broader work platform</text>
+
+  <rect x="100" y="260" width="640" height="470" rx="24" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <text x="135" y="325" fill="#7dd3fc" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">April 16, 2026</text>
+  <text x="135" y="370" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Product expansion</text>
+  <text x="135" y="430" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Browser support</text>
+  <text x="135" y="480" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Background computer use</text>
+  <text x="135" y="530" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Image generation</text>
+  <text x="135" y="580" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Memory preview</text>
+  <text x="135" y="630" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Ongoing automations</text>
+  <text x="135" y="680" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• PR review, SSH, terminals</text>
+
+  <rect x="860" y="260" width="640" height="470" rx="24" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+  <text x="895" y="325" fill="#86efac" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">April 21, 2026</text>
+  <text x="895" y="370" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">Enterprise scale signal</text>
+  <text x="895" y="430" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• 3M to 4M weekly developers</text>
+  <text x="895" y="480" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Broader knowledge-work framing</text>
+  <text x="895" y="530" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Codex Labs launch</text>
+  <text x="895" y="580" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Global SI partner rollout</text>
+  <text x="895" y="630" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="28">• Operational adoption focus</text>
+
+  <line x1="760" y1="495" x2="840" y2="495" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="840,495 810,475 810,515" fill="#64748b"/>
+</svg>
