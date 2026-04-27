@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="title desc">
+  <title id="title">Design to build workflow loop</title>
+  <desc id="desc">A four stage workflow showing idea, design, code, and revision.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#ffffff" rx="16"/>
+  <text x="40" y="52" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="700">Where Anthropic is trying to compress the workflow</text>
+  <text x="40" y="82" fill="#475569" font-family="system-ui, -apple-system, sans-serif" font-size="18">The value is not one step. It is the handoff between steps.</text>
+
+  <rect x="40" y="140" width="160" height="96" rx="16" fill="#dbeafe" stroke="#60a5fa" stroke-width="2"/>
+  <text x="120" y="176" text-anchor="middle" fill="#1e3a8a" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700">1. Idea</text>
+  <text x="120" y="204" text-anchor="middle" fill="#1d4ed8" font-family="system-ui, -apple-system, sans-serif" font-size="17">Prompt</text>
+  <text x="120" y="226" text-anchor="middle" fill="#1d4ed8" font-family="system-ui, -apple-system, sans-serif" font-size="17">Spec notes</text>
+
+  <rect x="230" y="140" width="160" height="96" rx="16" fill="#fce7f3" stroke="#f472b6" stroke-width="2"/>
+  <text x="310" y="176" text-anchor="middle" fill="#9d174d" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700">2. Design</text>
+  <text x="310" y="204" text-anchor="middle" fill="#be185d" font-family="system-ui, -apple-system, sans-serif" font-size="17">Mockup</text>
+  <text x="310" y="226" text-anchor="middle" fill="#be185d" font-family="system-ui, -apple-system, sans-serif" font-size="17">Prototype</text>
+
+  <rect x="420" y="140" width="160" height="96" rx="16" fill="#dcfce7" stroke="#34d399" stroke-width="2"/>
+  <text x="500" y="176" text-anchor="middle" fill="#166534" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700">3. Code</text>
+  <text x="500" y="204" text-anchor="middle" fill="#15803d" font-family="system-ui, -apple-system, sans-serif" font-size="17">Implement</text>
+  <text x="500" y="226" text-anchor="middle" fill="#15803d" font-family="system-ui, -apple-system, sans-serif" font-size="17">Test</text>
+
+  <rect x="610" y="140" width="150" height="96" rx="16" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="685" y="176" text-anchor="middle" fill="#92400e" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700">4. Revise</text>
+  <text x="685" y="204" text-anchor="middle" fill="#b45309" font-family="system-ui, -apple-system, sans-serif" font-size="17">Feedback</text>
+  <text x="685" y="226" text-anchor="middle" fill="#b45309" font-family="system-ui, -apple-system, sans-serif" font-size="17">Iteration</text>
+
+  <line x1="200" y1="188" x2="230" y2="188" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="390" y1="188" x2="420" y2="188" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="580" y1="188" x2="610" y2="188" stroke="#64748b" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M685 250 C685 330, 200 330, 120 250" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#arrow)"/>
+
+  <text x="40" y="318" fill="#0f172a" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">What changed in April 2026</text>
+  <text x="40" y="348" fill="#334155" font-family="system-ui, -apple-system, sans-serif" font-size="17">Opus 4.7 strengthens the long-running implementation side.</text>
+  <text x="40" y="374" fill="#334155" font-family="system-ui, -apple-system, sans-serif" font-size="17">Claude Design gives Anthropic a stronger entry point before code starts.</text>
+</svg>
