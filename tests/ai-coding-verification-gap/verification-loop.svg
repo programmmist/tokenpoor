@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">AI-assisted code verification loop</title>
+<desc id="desc">A five-step loop for verifying AI-assisted code: scope, generate, evidence, automated checks, human review, metrics.</desc>
+<rect width="1200" height="720" fill="#f8fafc"/>
+<text x="600" y="70" text-anchor="middle" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800">A practical verification loop for AI-assisted code</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#475569"/></marker></defs>
+<g font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">
+<rect x="80" y="170" width="185" height="110" rx="22" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/><text x="172" y="216" fill="#1e3a8a">1. Scope</text><text x="172" y="247" fill="#1e3a8a" font-size="16">Small, testable task</text>
+<rect x="320" y="170" width="185" height="110" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/><text x="412" y="216" fill="#4c1d95">2. Generate</text><text x="412" y="247" fill="#4c1d95" font-size="16">AI-assisted change</text>
+<rect x="560" y="170" width="185" height="110" rx="22" fill="#fef3c7" stroke="#d97706" stroke-width="3"/><text x="652" y="216" fill="#78350f">3. Evidence</text><text x="652" y="247" fill="#78350f" font-size="16">Tests, risks, notes</text>
+<rect x="800" y="170" width="185" height="110" rx="22" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/><text x="892" y="216" fill="#14532d">4. Checks</text><text x="892" y="247" fill="#14532d" font-size="16">CI, scans, policy</text>
+<rect x="500" y="430" width="200" height="120" rx="24" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/><text x="600" y="480" fill="#7f1d1d">5. Human review</text><text x="600" y="512" fill="#7f1d1d" font-size="16">Intent and edge cases</text>
+<rect x="860" y="430" width="210" height="120" rx="24" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/><text x="965" y="480" fill="#0c4a6e">6. Metrics</text><text x="965" y="512" fill="#0c4a6e" font-size="16">Rework and defects</text>
+</g>
+<g stroke="#475569" stroke-width="4" fill="none" marker-end="url(#arrow)"><path d="M265 225h50"/><path d="M505 225h50"/><path d="M745 225h50"/><path d="M892 280 C890 355 790 430 710 470"/><path d="M700 490h150"/><path d="M965 430 C960 360 1030 310 985 250"/><path d="M500 490 C305 500 165 390 172 285"/></g>
+<text x="600" y="640" text-anchor="middle" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">The goal is not less AI. It is more proof.</text>
+</svg>
