@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+<title id="title">Governed finance agent workflow</title><desc id="desc">A finance AI agent operates between trusted data, Microsoft Office work, and human approval gates.</desc>
+<rect width="1200" height="630" fill="#07111f"/>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25d0ab"/><stop offset="1" stop-color="#7aa7ff"/></linearGradient><filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".35"/></filter></defs>
+<circle cx="1000" cy="105" r="190" fill="#173b68" opacity=".45"/><circle cx="165" cy="520" r="220" fill="#0f5a55" opacity=".28"/>
+<text x="72" y="92" fill="#b7c7dc" font-family="Inter,Arial,sans-serif" font-size="28">AI operations in finance</text>
+<text x="72" y="158" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="700">Finance agents are moving</text>
+<text x="72" y="222" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="700">from chatbot to workflow</text>
+<g filter="url(#shadow)">
+<rect x="90" y="300" width="220" height="118" rx="24" fill="#10233a" stroke="#355575"/><text x="200" y="348" fill="#e8f2ff" font-family="Inter,Arial" font-size="25" font-weight="700" text-anchor="middle">Verified data</text><text x="200" y="384" fill="#98abc5" font-family="Inter,Arial" font-size="19" text-anchor="middle">filings • market feeds</text>
+<rect x="385" y="270" width="260" height="180" rx="30" fill="url(#g)"/><text x="515" y="340" fill="#07111f" font-family="Inter,Arial" font-size="31" font-weight="800" text-anchor="middle">Finance agent</text><text x="515" y="383" fill="#07111f" font-family="Inter,Arial" font-size="20" text-anchor="middle">research • model • deck</text>
+<rect x="720" y="300" width="220" height="118" rx="24" fill="#10233a" stroke="#355575"/><text x="830" y="348" fill="#e8f2ff" font-family="Inter,Arial" font-size="25" font-weight="700" text-anchor="middle">Office layer</text><text x="830" y="384" fill="#98abc5" font-family="Inter,Arial" font-size="19" text-anchor="middle">Excel • Word • PPT</text>
+<rect x="995" y="300" width="130" height="118" rx="24" fill="#10233a" stroke="#355575"/><text x="1060" y="348" fill="#e8f2ff" font-family="Inter,Arial" font-size="24" font-weight="700" text-anchor="middle">Review</text><text x="1060" y="384" fill="#98abc5" font-family="Inter,Arial" font-size="18" text-anchor="middle">approval</text>
+</g>
+<path d="M310 359h75M645 359h75M940 359h55" stroke="#7aa7ff" stroke-width="8" stroke-linecap="round"/><path d="M376 343l22 16-22 16M711 343l22 16-22 16M986 343l22 16-22 16" fill="none" stroke="#7aa7ff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="72" y="555" fill="#dce8f8" font-family="Inter,Arial" font-size="28" font-weight="700">The moat is not autonomy. It is evidence, integration, and controls.</text>
+</svg>
