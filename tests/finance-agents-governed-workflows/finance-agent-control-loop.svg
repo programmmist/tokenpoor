@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">A practical control model for finance agents</title><desc id="desc">The workflow connects scope, data, action, evidence, approval, logging, and evaluation.</desc>
+<rect width="1200" height="760" fill="#f7f9fc"/>
+<text x="80" y="74" font-family="Inter,Arial" font-size="38" font-weight="800" fill="#122033">A practical control model for finance agents</text>
+<text x="80" y="116" font-family="Inter,Arial" font-size="21" fill="#52627a">Useful agents do work inside a governed loop, not outside it.</text>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2 2 L10 6 L2 10" fill="#3b6fff"/></marker></defs>
+<g font-family="Inter,Arial" font-size="20">
+<g><rect x="80" y="175" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="220" y="218" text-anchor="middle" font-weight="700" fill="#122033">1. Scope the job</text><text x="220" y="250" text-anchor="middle" fill="#607086">pitchbook, KYC, close</text></g>
+<g><rect x="460" y="175" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="600" y="218" text-anchor="middle" font-weight="700" fill="#122033">2. Connect evidence</text><text x="600" y="250" text-anchor="middle" fill="#607086">filings, feeds, workpapers</text></g>
+<g><rect x="840" y="175" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="980" y="218" text-anchor="middle" font-weight="700" fill="#122033">3. Work in tools</text><text x="980" y="250" text-anchor="middle" fill="#607086">Excel, Word, PowerPoint</text></g>
+<g><rect x="840" y="385" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="980" y="428" text-anchor="middle" font-weight="700" fill="#122033">4. Preserve trace</text><text x="980" y="460" text-anchor="middle" fill="#607086">sources, formulas, changes</text></g>
+<g><rect x="460" y="385" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="600" y="428" text-anchor="middle" font-weight="700" fill="#122033">5. Human approval</text><text x="600" y="460" text-anchor="middle" fill="#607086">commit only after review</text></g>
+<g><rect x="80" y="385" width="280" height="100" rx="18" fill="#fff" stroke="#d8e1ef"/><text x="220" y="428" text-anchor="middle" font-weight="700" fill="#122033">6. Evaluate drift</text><text x="220" y="460" text-anchor="middle" fill="#607086">accuracy, compliance, cost</text></g>
+</g>
+<path d="M360 225h100M740 225h100M980 275v110M840 435H740M460 435H360M220 385V275" fill="none" stroke="#3b6fff" stroke-width="5" marker-end="url(#arrow)"/>
+<rect x="190" y="595" width="820" height="76" rx="22" fill="#10233a"/><text x="600" y="642" text-anchor="middle" fill="#fff" font-family="Inter,Arial" font-size="25" font-weight="700">Design target: faster analyst work with auditable, reversible decisions.</text>
+</svg>
