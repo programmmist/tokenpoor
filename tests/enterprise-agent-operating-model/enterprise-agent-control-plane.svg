@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Enterprise agent control plane</title>
+<desc id="desc">The layers required to run enterprise agents safely: identity, permissions, context, scheduling, observability, review, exceptions, and evaluation.</desc>
+<rect width="1200" height="720" fill="#f8fafc"/>
+<text x="80" y="72" font-family="Inter,Arial" font-size="38" font-weight="900" fill="#0f172a">The enterprise-agent control plane</text>
+<text x="80" y="112" font-family="Inter,Arial" font-size="18" fill="#475569">Agents become durable when connected action is surrounded by controls.</text>
+<g transform="translate(80 155)">
+  <rect x="0" y="0" width="1040" height="480" rx="28" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="410" y="170" width="220" height="130" rx="26" fill="#1d4ed8"/>
+  <text x="520" y="225" text-anchor="middle" font-family="Inter,Arial" font-size="28" font-weight="900" fill="white">Agent</text>
+  <text x="520" y="260" text-anchor="middle" font-family="Inter,Arial" font-size="16" fill="#dbeafe">bounded workflow</text>
+  <g font-family="Inter,Arial" font-size="18" font-weight="800" fill="#0f172a">
+    <rect x="60" y="55" width="230" height="75" rx="16" fill="#e0f2fe" stroke="#38bdf8"/><text x="175" y="101" text-anchor="middle">Identity</text>
+    <rect x="405" y="55" width="230" height="75" rx="16" fill="#dcfce7" stroke="#22c55e"/><text x="520" y="101" text-anchor="middle">Permissions</text>
+    <rect x="750" y="55" width="230" height="75" rx="16" fill="#fef3c7" stroke="#f59e0b"/><text x="865" y="101" text-anchor="middle">Context</text>
+    <rect x="60" y="355" width="230" height="75" rx="16" fill="#ede9fe" stroke="#8b5cf6"/><text x="175" y="401" text-anchor="middle">Scheduling</text>
+    <rect x="405" y="355" width="230" height="75" rx="16" fill="#fee2e2" stroke="#ef4444"/><text x="520" y="401" text-anchor="middle">Review gates</text>
+    <rect x="750" y="355" width="230" height="75" rx="16" fill="#ccfbf1" stroke="#14b8a6"/><text x="865" y="401" text-anchor="middle">Evaluation</text>
+  </g>
+  <g stroke="#64748b" stroke-width="3" fill="none">
+    <path d="M290 92 C380 92 390 200 410 220"/>
+    <path d="M520 130 V170"/>
+    <path d="M750 92 C660 92 650 200 630 220"/>
+    <path d="M290 392 C380 392 390 280 410 250"/>
+    <path d="M520 355 V300"/>
+    <path d="M750 392 C660 392 650 280 630 250"/>
+  </g>
+</g>
+<text x="80" y="675" font-family="Inter,Arial" font-size="18" fill="#334155">The goal is not maximum autonomy. It is repeatable work with clear boundaries, logs, escalation, and ownership.</text>
+</svg>
