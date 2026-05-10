@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">A practical memory consolidation loop for production agents</title>
+<desc id="desc">Diagram showing run logs, scoring, candidate lessons, review, promoted memory, and regression checks.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/></linearGradient>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10 Z" fill="#334155"/></marker>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<text x="70" y="72" fill="#0f172a" font-family="Inter, Arial" font-size="42" font-weight="800">Production agent memory consolidation loop</text>
+<text x="70" y="112" fill="#475569" font-family="Inter, Arial" font-size="22">Memory should be proposed, reviewed, scoped, tested, and reversible.</text>
+<g font-family="Inter, Arial" font-size="19" font-weight="700">
+  <rect x="70" y="190" width="190" height="100" rx="22" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="110" y="232" fill="#1e3a8a">1. Run logs</text><text x="95" y="263" fill="#1e40af" font-size="16">goals, tools, result</text>
+  <rect x="340" y="190" width="190" height="100" rx="22" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="380" y="232" fill="#4c1d95">2. Score run</text><text x="366" y="263" fill="#5b21b6" font-size="16">rubric + reviewer</text>
+  <rect x="610" y="190" width="190" height="100" rx="22" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="637" y="232" fill="#78350f">3. Lessons</text><text x="636" y="263" fill="#92400e" font-size="16">extract candidates</text>
+  <rect x="880" y="190" width="190" height="100" rx="22" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="914" y="232" fill="#14532d">4. Review</text><text x="910" y="263" fill="#166534" font-size="16">approve or reject</text>
+  <rect x="610" y="420" width="190" height="100" rx="22" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="633" y="462" fill="#0c4a6e">5. Memory</text><text x="637" y="493" fill="#075985" font-size="16">scoped + versioned</text>
+  <rect x="340" y="420" width="190" height="100" rx="22" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="361" y="462" fill="#7f1d1d">6. Regression</text><text x="367" y="493" fill="#991b1b" font-size="16">prove improvement</text>
+</g>
+<g stroke="#334155" stroke-width="4" fill="none" marker-end="url(#arrow)">
+  <path d="M260 240 H330"/><path d="M530 240 H600"/><path d="M800 240 H870"/>
+  <path d="M975 290 C975 380 815 420 800 460"/>
+  <path d="M610 470 H540"/>
+  <path d="M340 470 C210 470 165 365 165 300"/>
+</g>
+<rect x="70" y="585" width="1000" height="70" rx="18" fill="#0f172a"/>
+<text x="100" y="628" fill="#e2e8f0" font-family="Inter, Arial" font-size="22" font-weight="700">Rule of thumb: agents may propose durable memory; humans or evals should decide what gets promoted.</text>
+</svg>
